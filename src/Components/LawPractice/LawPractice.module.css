@@ -1,0 +1,46 @@
+.chooseClass {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143.023%; /* 77.232px */
+  text-align: center;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 176px;
+}
+
+.box2 {
+  margin-top: 65px;
+}
+
+.myBoxingStyle {
+  position: relative;
+}
+
+.styleMyText {
+  position: absolute;
+  color: #fffbf2;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  top: 277px;
+  left: 255px;
+}
+.styleMyText1 {
+  position: absolute;
+  color: #fffbf2;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  top: 277px;
+  left: 96px;
+}

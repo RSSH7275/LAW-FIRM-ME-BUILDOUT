@@ -1,23 +1,33 @@
 import logo from './logo.svg';
+import LawFirm from './Components/LawFirm/LawFirm';
+import LawIntro from './Components/LawIntro/LawIntro';
+import LawCard from './Components/LawCard/LawCard';
+import LawPractice from './Components/LawPractice/LawPractice';
+import LawClients from './Components/LawClients/LawClients';
+import LawTeam from './Components/LawTeam/LawTeam';
+import FaqInfo from './Components/FaqInfo/FaqInfo';
+import SubscLetter from './Components/SubscLetter/SubscLetter';
+import Footer from './Components/Footer/Footer';
 import './App.css';
 
 function App() {
   return (
+    <div>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LawFirm/>
+    </div>
+      <div className='lawBody'>
+      <LawIntro/>
+      <LawCard/>
+      <LawPractice/>
+      <LawClients/>
+      <LawTeam/>
+      <FaqInfo/>
+      <SubscLetter/>
+      </div>
+      <div className='footer'>
+      <Footer/>
+      </div>
     </div>
   );
 }

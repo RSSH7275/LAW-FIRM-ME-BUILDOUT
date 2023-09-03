@@ -1,0 +1,13 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 185px;
+}
+
+.accordionStyling{
+  display: flex;
+}
+
+/* .info{
+    width: 557px;
+} */

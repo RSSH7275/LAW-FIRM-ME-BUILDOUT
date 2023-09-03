@@ -1,0 +1,47 @@
+.parent_Container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 132px;
+}
+
+.pTagStyle {
+  color: var(--Pure-White, #fff);
+  font-family: Inter;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 143.023%; /* 77.232px */
+  text-align: center;
+}
+
+.boxStyling {
+}
+
+.profile_Styling {
+  display: flex;
+  align-items: center;
+  column-gap: 22px;
+}
+
+.profile_Styling1 {
+  display: flex;
+  align-items: center;
+  width: 344px;
+  height: 100%;
+  border-radius: 14px;
+  background: #e3b748;
+  padding-top: 18px;
+  padding-left: 22px;
+  padding-bottom: 22px;
+  column-gap: 22px;
+}
+
+.mainCard {
+  display: flex;
+  padding-top: 122px;
+}
+
+.membInfoStyle {
+  display: flex;
+  flex-direction: column;
+}

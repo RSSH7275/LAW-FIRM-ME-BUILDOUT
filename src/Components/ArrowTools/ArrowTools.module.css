@@ -1,0 +1,39 @@
+.mainContainer{
+  position: relative;
+  cursor: pointer;
+}
+
+.ellipClass{
+width: 91px;
+}
+
+
+.arrowClass{
+    position: absolute;
+    left: 32px;
+    top: 36px;
+}
+
+.mainContainer1{
+  position: relative;
+  cursor: pointer;
+}
+
+.ellipClass1{
+  width: 91px;
+}
+
+/* .leftNavigation{
+ position: absolute;
+}
+
+.rightNavigation{
+  position: absolute;
+
+} */
+
+.arrowClass1{
+    position: absolute;
+    left: 32px;
+    top: 36px;
+}
